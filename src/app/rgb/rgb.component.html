@@ -1,0 +1,21 @@
+<form [formGroup]="contacto" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>Color: </label>
+        <input type="color" formControlName="color"/>          
+    </div>    
+    <input type="submit" value="enviar">
+</form>
+
+
+<div id="panel-colores" class="card text-center" style="width: 18rem;">    
+    <div class="card-body">
+      <h5 class="card-title">Colores</h5>
+      <button type="button" class="btn btn-success btn-block" (click)="enviarColor('#00ff00')">Verde</button>
+      <button type="button" class="btn btn-primary btn-block" (click)="enviarColor('#008bff')">Azul</button>
+      <button type="button" class="btn btn-danger btn-block" (click)="enviarColor('#ff0000')">Rojo</button>
+      <button type="button" class="btn btn-warning btn-block" (click)="enviarColor('#FFFF00')">Amarrillo</button>
+    </div>
+  </div>
+
+
+

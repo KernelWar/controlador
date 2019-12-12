@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+#appearance7 .rs-range-color  {
+    background-color: #33B5E5;
+}
+#appearance7 .rs-path-color  {
+    background-color: #C2E9F7;
+}
+#appearance7 .rs-handle  {
+    background-color: #C2E9F7;
+    padding: 7px;
+    border: 2px solid #C2E9F7;
+}
+#appearance7 .rs-handle.rs-focus  {
+    border-color: #33B5E5;
+}
+#appearance7 .rs-handle:after  {
+    border-color: #33B5E5;
+    background-color: #33B5E5;
+}
+#appearance7 .rs-border  {
+    border-color: transparent;
+}
+
+
+#handle1 .rs-handle  {
+    background-color: transparent;
+    border: 8px solid transparent;
+    border-right-color: black;
+    margin: -6px 0px 0px 14px !important;
+    border-width: 6px 104px 6px 4px;
+}
+#handle1 .rs-handle:before  {
+    display: block;
+    content: " ";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background: black;
+    right: -11px;
+    bottom: -11px;
+    border-radius: 100px;
+}
+#handle1 .rs-tooltip  {
+    top: 75%;
+    font-size: 11px;
+}
+#handle1 .rs-tooltip div  {
+    text-align: center;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    padding: 1px 5px 2px;
+    margin-top: 4px;
+}
+#handle1 .rs-range-color  {
+    background-color: #DB5959;
+}
+#handle1 .rs-path-color  {
+    background-color: #F0C5C5;
+}

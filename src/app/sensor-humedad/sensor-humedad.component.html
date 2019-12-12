@@ -1,0 +1,11 @@
+<p>Humedad: {{ humedad }} %</p>
+
+
+<div class="grafica">
+        <canvas baseChart [data]="pieChartData"  [labels]="pieChartLabels" [chartType]="pieChartType"></canvas>
+</div>
+
+<p>Temperatura: {{ temperatura }} C°</p>
+<div class="grafica">
+        <canvas baseChart [data]="pieChartData2"  [labels]="pieChartLabels2" [chartType]="pieChartType2"></canvas>
+</div>

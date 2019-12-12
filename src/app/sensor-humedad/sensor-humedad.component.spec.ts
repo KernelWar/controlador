@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { SensorHumedadComponent } from './sensor-humedad.component';
+
+describe('SensorHumedadComponent', () => {
+  let component: SensorHumedadComponent;
+  let fixture: ComponentFixture<SensorHumedadComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ SensorHumedadComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(SensorHumedadComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
