@@ -10,6 +10,6 @@ const config: SocketIoConfig = { url: 'http://192.168.43.142:8080', options: {} 
 
 <div>
 	<img src="capturas/1.jpg">
-	<img src="capturas/2.jpg">
-	<img src="capturas/3.jpg">
+	<img src="capturas/2.png">
+	<img src="capturas/3.png">
 </div>
